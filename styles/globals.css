@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.lg-react-element {
+  @apply flex justify-between items-center gap-5;
+}
+
+.lg-react-element img {
+  @apply w-32 h-32 rounded-3xl;
+}
+
+.lg-thumb-item {
+  @apply !border !border-neutral-600;
+}
+
+.lg-thumb-item.active {
+  @apply !border !border-blue-500;
+}
